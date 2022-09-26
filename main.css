@@ -1,7 +1,7 @@
 /*
 Joel Mardock
-9-18-2022
-Module 7.3 Assignment: bioSite: Development
+9-25-2022
+Module 8.2 Assignment: bioSite: Development and GitHub Pages Deployment
 */
 
 
@@ -13,6 +13,7 @@ h1{
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
+    font-size: 55px;
 }
 
 #navbar
@@ -36,10 +37,16 @@ h1{
     
 }
 
-#image1, #image3
+
+
+#indexImage1
 {
     float:left;
-    margin-left: 10%;
+    padding-left: 10%; 
+}
+
+#indexImage1 img
+{
     border-style:solid;
     border-color: #697EDB;
     border-radius: 10px;
@@ -47,10 +54,16 @@ h1{
     width: 200px;
     height: 200px;
 }
-#image2
+
+#indexImage2
 {
     float:right;
-    margin-left: 60%;
+    padding-right: 10%;
+    padding-top: 20%;
+   
+}
+#indexImage2 img
+{
     border-style:solid;
     border-radius: 10px;
     border-width: 10px;
@@ -58,6 +71,26 @@ h1{
     width: 200px;
     height: 200px;
 }
+
+#indexImage3
+{
+    float:left;
+    padding-top: 10%;
+    padding-left: 10%;
+  
+}
+#indexImage3 img
+{
+    border-style:solid;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: #A88418;
+    width: 200px;
+    height: 200px; 
+}
+
+
+
 .landing-text1
 {
     font-family: 'Roboto', sans-serif;
@@ -105,43 +138,75 @@ figure{
 }
 
 
-
-#image-gallery
+footer
 {
-    margin-top: 10%;
-    display: grid;  
-    grid-template-columns: auto auto auto;
-
+    background-color:#000000;
+    font-weight: 400;
+    font-style: italic;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    
+}
+footer p
+{
+    color: white;
+    font-weight: 400;
+    float: left;
+    padding: 1px;
+    font-style: italic;
 }
 
 
-#grid-item1
+#hobbyImage1
 {
+    border-style:solid;
+    border-color: #A88418;
+    border-radius: 10px;
+    border-width: 10px;
+    width: 200px;
+    height: 200px;
 
 
+}
+
+#hobbyImageLeft
+{
+ 
+    float: left;
+    margin-left: 20%;
+
+
+}
+#hobbyImageLeft img
+{
     border-style:solid;
     border-color: #697EDB;
     border-radius: 10px;
     border-width: 10px;
     width: 200px;
     height: 200px;
-    margin-left: auto;
-    margin-right: auto;
- 
- 
 }
-#grid-item2
+#hobbyImageRight
 {
 
+    float: right;
+    margin-right: 20%;
 
+
+
+}
+
+#hobbyImageRight img
+{
     border-style:solid;
     border-color: #697EDB;
     border-radius: 10px;
     border-width: 10px;
     width: 200px;
     height: 200px;
-    margin-left: auto;
-    margin-right: auto;
- 
- 
+
+   
 }
