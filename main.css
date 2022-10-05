@@ -57,6 +57,10 @@ text-align: left;
 text-align: right;
     
 }
+.text-center
+{
+  text-align: center;
+}
 
 .gold-border
 {
@@ -119,23 +123,6 @@ footer p
   width: 50%;
   margin-bottom: 100px;
 }
-figure{
-  font-family: 'Roboto', sans-serif;
-  text-align: center; 
-  font-weight: 700;
-}
-#hobbies-img1
-{
-  border-style:solid;
-  border-color: #A88418;
-  border-radius: 10px;
-  border-width: 10px;
-  width: 200px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 
 
 footer
@@ -170,47 +157,6 @@ footer p
   height: 300px;
 }
 
-#hobbyImageLeft
-{
- 
-  float: left;
-  margin-left: 20%;
-
-
-}
-#hobbyImageLeft img
-{
-  border-style:solid;
-  border-color: #697EDB;
-  border-radius: 10px;
-  border-width: 10px;
-  width: 300px;
-  height: 300px;
-}
-#hobbyImageRight
-{
-
-  float: right;
-  margin-right: 20%;
-  margin-bottom:100px;
-
-
-
-}
-
-#hobbyImageRight img
-{
-  border-style:solid;
-  border-color: #697EDB;
-  border-radius: 10px;
-  border-width: 10px;
-  width: 300px;
-  height: 300px;
-
-   
-}
-
-
 
 .row
 {
@@ -219,12 +165,6 @@ footer p
   margin-right: -15px;
   margin-left: -15px;
 }
-
-.text-center 
-{
-    text-align: center !important;
-}
-  
 
   
 .col {
