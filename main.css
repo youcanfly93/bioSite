@@ -1,199 +1,198 @@
 /*
 Joel Mardock
-9-25-2022
-Module 8.2 Assignment: bioSite: Development and GitHub Pages Deployment
+10-4-2022
+Module 12.2 Assignment: bioSite Final Submission Part 1 (Peers)
 */
 
+/*
+row, container, and columns resources from https://getbootstrap.com/
+*/
 
-html{
-    background-color: #DBDBDB;
+html
+{
+  background-color: #DBDBDB;
 }
 
-h1{
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 55px;
+h1
+{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 55px;
+  text-align: center;
+}
+
+h3
+{
+  font-family: 'Roboto', sans-serif;
 }
 
 #navbar
 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    word-spacing: 40px;   
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  word-spacing: 40px;   
 }
 #navbar a
 {
-    color: #6C759E;
-    text-decoration: none;
+  color: #6C759E;
+  text-decoration: none;
     
     
 }
 #navbar a:hover
 {
-    font-weight: 700;
-    text-decoration: underline;
+  font-weight: 700;
+  text-decoration: underline;
     
 }
 
-
-
-#indexImage1
+.text-start
 {
-    float:left;
-    padding-left: 10%; 
+text-align: left;
 }
 
-#indexImage1 img
+.text-end
 {
-    border-style:solid;
-    border-color: #697EDB;
-    border-radius: 10px;
-    border-width: 10px;
-    width: 200px;
-    height: 200px;
+text-align: right;
+    
 }
 
-#indexImage2
+.gold-border
 {
-    float:right;
-    padding-right: 10%;
-    padding-top: 20%;
-   
-}
-#indexImage2 img
-{
-    border-style:solid;
-    border-radius: 10px;
-    border-width: 10px;
-    border-color: #A88418;
-    width: 200px;
-    height: 200px;
+  border-style:solid;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: #A88418;
+  width: 300px;
+  height: 300px;
 }
 
-#indexImage3
+.blue-border
 {
-    float:left;
-    padding-top: 10%;
-    padding-left: 10%;
-  
-}
-#indexImage3 img
-{
-    border-style:solid;
-    border-radius: 10px;
-    border-width: 10px;
-    border-color: #A88418;
-    width: 200px;
-    height: 200px; 
+  border-style:solid;
+  border-color: #697EDB;
+  border-radius: 10px;
+  border-width: 10px;
+  width: 300px;
+  height: 300px;
 }
 
-
-
-.landing-text1
+footer
 {
-    font-family: 'Roboto', sans-serif;
-    float: left;
-    vertical-align: middle;
+  background-color:#000000;
+  font-weight: 400;
+  font-style: italic;
+  padding-right: 10px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+    
 }
-.landing-text2
-{   
-    font-family: 'Roboto', sans-serif;
-    float: right;
+footer p
+{
+  color: white;
+  font-weight: 400;
+  float: left;
+  padding: 1px;
+  font-style: italic;
 }
+
 #about-image1
 {
-    border-style:solid;
-    border-color: #697EDB;
-    border-radius: 10px;
-    border-width: 10px;
-    width: 150px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  border-style:solid;
+  border-color: #697EDB;
+  border-radius: 10px;
+  border-width: 10px;
+  width: 230px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .about-text1, .hobbies-text1
 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 100px;
 }
 figure{
-    font-family: 'Roboto', sans-serif;
-    text-align: center; 
-    font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; 
+  font-weight: 700;
 }
 #hobbies-img1
 {
-    border-style:solid;
-    border-color: #A88418;
-    border-radius: 10px;
-    border-width: 10px;
-    width: 200px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  border-style:solid;
+  border-color: #A88418;
+  border-radius: 10px;
+  border-width: 10px;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 
 footer
 {
-    background-color:#000000;
-    font-weight: 400;
-    font-style: italic;
-    padding-right: 10px;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    left: 0;
+  background-color:#000000;
+  font-weight: 400;
+  font-style: italic;
+  padding-right: 10px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
     
 }
 footer p
 {
-    color: white;
-    font-weight: 400;
-    float: left;
-    padding: 1px;
-    font-style: italic;
+  color: white;
+  font-weight: 400;
+  float: left;
+  padding: 1px;
+  font-style: italic;
 }
 
 
 #hobbyImage1
 {
-    border-style:solid;
-    border-color: #A88418;
-    border-radius: 10px;
-    border-width: 10px;
-    width: 200px;
-    height: 200px;
-
-
+  border-style:solid;
+  border-color: #A88418;
+  border-radius: 10px;
+  border-width: 10px;
+  width: 300px;
+  height: 300px;
 }
 
 #hobbyImageLeft
 {
  
-    float: left;
-    margin-left: 20%;
+  float: left;
+  margin-left: 20%;
 
 
 }
 #hobbyImageLeft img
 {
-    border-style:solid;
-    border-color: #697EDB;
-    border-radius: 10px;
-    border-width: 10px;
-    width: 200px;
-    height: 200px;
+  border-style:solid;
+  border-color: #697EDB;
+  border-radius: 10px;
+  border-width: 10px;
+  width: 300px;
+  height: 300px;
 }
 #hobbyImageRight
 {
 
-    float: right;
-    margin-right: 20%;
+  float: right;
+  margin-right: 20%;
+  margin-bottom:100px;
 
 
 
@@ -201,12 +200,54 @@ footer p
 
 #hobbyImageRight img
 {
-    border-style:solid;
-    border-color: #697EDB;
-    border-radius: 10px;
-    border-width: 10px;
-    width: 200px;
-    height: 200px;
+  border-style:solid;
+  border-color: #697EDB;
+  border-radius: 10px;
+  border-width: 10px;
+  width: 300px;
+  height: 300px;
 
    
 }
+
+
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.text-center 
+{
+    text-align: center !important;
+}
+  
+
+  
+.col {
+
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  
+}
+
+
+.container 
+{
+  min-width: 450px;
+    max-width: 960px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+  
